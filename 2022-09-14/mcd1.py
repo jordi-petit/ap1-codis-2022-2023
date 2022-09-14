@@ -12,4 +12,5 @@ else:
     d = b
 while a % d != 0 or b % d != 0:
     d = d - 1
-print(f'mcd({a},{b}) = {d}')
+
+print(d)
