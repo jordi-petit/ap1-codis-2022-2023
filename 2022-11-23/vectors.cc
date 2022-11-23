@@ -12,7 +12,7 @@ vector<int> suma(const vector<int>& v1, const vector<int>& v2)
     return r;
 }
 
-void doblar(const vector<int>& v)
+void doblar(vector<int>& v)
 {
     for (int& x : v) {
         x *= 2;
