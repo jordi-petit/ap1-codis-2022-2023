@@ -51,3 +51,8 @@ double pib2(const Paisos& paisos, char c, double d)
     }
     return s;
 }
+
+int main()
+{
+    Provincia prov = { "Barcelona", "Barcelona", 3000000, 100, 7456367 };
+}
